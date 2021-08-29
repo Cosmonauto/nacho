@@ -24,6 +24,7 @@ body {
     height: 60vh;
 }
 .main-text h6{
+    font-size: 20px;
 font-weight: 300;
 }
 
@@ -48,6 +49,9 @@ font-weight: 300;
         align-items: left !important;
         flex-direction: row;
         justify-content: left !important;
+    }
+    .main-text {
+        height: 70vh;
     }
 
 }

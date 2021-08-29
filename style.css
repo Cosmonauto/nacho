@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
 body{
     background-color: #EFF8FF;
+font-family: 'Roboto', 
+sans-serif;
+ font-weight: 900;
 }
 .navbar-main{
 background-color: #301025;
@@ -19,6 +24,9 @@ background-color: #301025;
 }
 .hero-main-image-container img{
     width: 100%;
+}
+.nachos-info h4{
+    font-weight: 300;
 }
 
 .pricing-header{
@@ -44,6 +52,11 @@ a{
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+    .footer-media {
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
 }
 @media (max-width: 500px){
     .hero-main-text{
@@ -63,6 +76,17 @@ a{
     .hero-main-image-container img {
         width: 100% !important;
     }
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-media{
+        display: flex;
+        align-items: left !important;
+        flex-direction: row;
+        justify-content: left !important;
+    }
 
 }
 .card{
@@ -74,9 +98,12 @@ a{
     width: 300px;
     height: 300px;
 }
-
+.card-text{
+    font-weight: 300;
+}
 
 .footer-main{
     background-color: #A1CAE2 !important;
+    font-weight: 500;
 }
 

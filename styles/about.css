@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+body {
+    background-color: #EFF8FF;
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 900;
+}
+
+.navbar-main {
+    background-color: #301025;
+}
+
+.hero-main{
+    background-image: url("../assets/images/about-nachos.jpeg");
+     min-height: 70vh;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.main-text{
+    height: 60vh;
+}
+.main-text h6{
+font-weight: 300;
+}
+
+
+@media (min-width: 768px) {
+    .footer-media {
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-media {
+        display: flex;
+        align-items: left !important;
+        flex-direction: row;
+        justify-content: left !important;
+    }
+
+}
+
+
+.footer-main {
+    background-color: #A1CAE2 !important;
+    font-weight: 500;
+}

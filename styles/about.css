@@ -53,6 +53,16 @@ font-weight: 300;
     .main-text {
         height: 80vh;
     }
+    .hero-main {
+        /* background-image: url("https://clipart-best.com/img/hands/hands-clip-art-20.png") !important; */
+        background-color: #301025;
+        background-image: none;
+        /* background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        min-height: 5vh !important; 
+    }
 
 }
 
